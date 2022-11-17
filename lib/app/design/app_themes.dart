@@ -27,13 +27,10 @@ class AppThemes {
 
     //? App Bar
     appBarTheme: const AppBarTheme(
-      // backgroundColor: AppColors.appBarBackgroundColor,
-      // foregroundColor: AppColors.appBarForegroundColor,
-      elevation: AppValues.appBarButtonsElevation,
+      elevation: 2,
       toolbarHeight: AppValues.appBarHeight,
       shadowColor: AppColors.shadowColor,
       centerTitle: true,
-
       titleTextStyle: TextStyle(color: Colors.black),
     ),
     textTheme: const TextTheme(headline1: TextStyle(color: Colors.black)),

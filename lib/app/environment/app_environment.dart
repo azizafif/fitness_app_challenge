@@ -44,10 +44,10 @@ enum Environment {
     sendTimeout: 0,
     receiveTimeout: 0,
   ),
-  dev(baseUrl: 'https://api.themoviedb.org/3/'),
-  preprod(baseUrl: 'https://api.themoviedb.org/3/'),
+  dev(baseUrl: 'https://exercises-by-api-ninjas.p.rapidapi.com'),
+  preprod(baseUrl: 'https://exercises-by-api-ninjas.p.rapidapi.com'),
   prod(
-    baseUrl: 'https://api.themoviedb.org/3/',
+    baseUrl: 'https://exercises-by-api-ninjas.p.rapidapi.com',
     connectTimeout: 10000,
     sendTimeout: 20000,
     receiveTimeout: 15000,
