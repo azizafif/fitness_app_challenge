@@ -1,0 +1,1 @@
+enum FilterOptions { type, muscle }
